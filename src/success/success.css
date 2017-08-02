@@ -1,0 +1,196 @@
+/*reset*/
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+/*reset*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*nav-top begin*/
+.nav-top{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 3;
+	background: #78230e;
+}
+.nav-top-hendline{
+	color: #FFFFFF;
+	float: left;
+	margin-left: 8%;
+	margin-top: 10px;
+}
+.nav-top h1{
+	font-size: 1.3rem;
+}
+.nav-top h2{
+	font-size: 0.8rem;
+	margin-top: 5px;
+	background: #2c0d06;
+	padding: 3px 1px;
+	border-radius: 10px;
+	text-align: center;
+}
+.nav-top-bg{
+	float: right;
+	margin-top: 10px;
+}
+/*nav-top end*/
+.container{
+	background: #EEEEEE;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.container-1{
+	width: 95%;
+	height:75%;
+	line-height: 50px;
+	margin: 0 auto;
+	margin-top: 95px;
+	margin-bottom: 65px;
+	text-align: center;
+	background: #fff;
+	position: relative;
+	border: solid 1px #ddd;
+	font-size: 20px;
+	list-style: none;
+}
+.container-1 hr,
+.container-1 .headline p{
+	display: inline-block;
+	margin-left: 10px;
+	color: #78230e;
+	margin-top: 5%;
+}
+.tip{
+	font-size:1rem;
+	float: left;
+	font-family: "微软雅黑";
+	margin-left: 5%;
+}
+.container-1 hr{	
+	width: 20px;
+	margin-bottom: 4px;
+}
+.clear{
+	clear:both;
+}
+.menu{
+	display: inline-block;
+	width: 80%;
+}
+.menu li{
+	border: 1px solid #EEEEEE;
+	margin-top: 5px;
+}
+.menu img{
+	float: left;	
+	margin-left:30px;
+	width: 80px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.menu p{
+	font-family:"微软雅黑";
+	font-size: 1rem;
+	padding-top: 25px;
+}
+/*nav-bottom*/
+
+.confirm-btn{
+	position: fixed;
+	margin: 0 auto;
+	bottom: 0;
+	background: #78230e;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  z-index: 5;
+  font-size: 1.2rem;
+}
+.confirm-btn:hover{
+	background: #8f4432;
+}
+.confirm-btn a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+

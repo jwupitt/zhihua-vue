@@ -1,0 +1,223 @@
+/*reset*/
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: #42b983;
+}
+
+/*reset*/
+.clear{
+	clear:both;
+}
+/*nav-top begin*/
+.nav-top{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 3;
+	background: #78230e;
+}
+.nav-top-hendline{
+	color: #FFFFFF;
+	float: left;
+	margin-left: 8%;
+	margin-top: 10px;
+}
+.nav-top h1{
+	font-size: 1.3rem;
+}
+.nav-top h2{
+	font-size: 0.8rem;
+	margin-top: 5px;
+	background: #2c0d06;
+	padding: 3px 1px;
+	border-radius: 10px;
+}
+.nav-top-bg{
+	float: right;
+	margin-top: 10px;
+}
+/*nav-top end*/
+.menu{
+	position: absolute;
+	margin-top: 80px;
+	overflow-y: visible;
+	z-index: 1;
+	background: #EEEEEE;
+}
+.home h1,
+.home h2,
+.container li{
+	text-align: center;
+	font-family: "微软雅黑";
+	
+}
+
+.container img{
+	width: 80px;
+	float: left;
+	margin-left: 10%;
+	margin-top: 9px;
+}
+.menu ul{
+	margin-bottom: 60px;
+	margin-top: 2%;
+	margin-left: 3%;
+}
+.container li {
+	background: #FFFFFF;
+	border: solid 1px #ddd;
+	width: 95%;
+}
+.container li p{
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #000;
+}
+.container .item-right{
+	float: right;
+	width: 120px;
+	margin-right: 20px;
+}
+.counter-component {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom:15px;
+}
+.counter-show {
+  float: left;
+}
+.counter-show input {
+  border: none;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  height: 23px;
+  line-height: 23px;
+  width: 30px;
+  text-align: center;
+}
+.counter-btn {
+  border: 1px solid #95331a;
+  background: #c5553a;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  width: 25px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+.counter-btn:hover {
+  border-color: #95331a;
+  background: #95331a;
+  color: #fff;
+}
+/*.nav-botttom{
+	height: 60px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	bottom: 0;
+	z-index: 4;
+}*/
+.confirm-btn{
+	position: fixed;
+	margin: 0 auto;
+	bottom: 0;
+	background: #78230e;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  z-index: 5;
+  font-size: 1.2rem;
+}
+.confirm-btn:hover{
+	background: #8f4432;
+}

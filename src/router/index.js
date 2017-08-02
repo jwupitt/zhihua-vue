@@ -9,13 +9,22 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: resolve => require.ensure([], () => resolve(require('../Hello/hello.vue')), 'hello')
+      name: 'Home',
+      component: resolve => require.ensure([], () => resolve(require('../Home/home.vue')), 'home')
     },
     {
-      path: '/test',
-      name: 'test',
-      component: resolve => require.ensure([], () => resolve(require('../components/test.vue')), 'test')
-    },
-  ],
+      path:'/success',
+      name:'success',
+      component: resolve => require.ensure([], () => resolve(require('../success/success.vue')), 'success')
+    }
+//  {
+////    children:[
+////	      {
+////	      	path: '/success',
+////	      	name: 'success',
+////	      	component: resolve => require.ensure([], () => resolve(require('../components/success.vue')), 'success')
+////	      }
+////    ]
+//  }   
+  ]
 });

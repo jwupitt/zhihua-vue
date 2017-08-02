@@ -1,0 +1,116 @@
+{
+  "getNewsList": [
+    {
+      "id": 1,
+      "imgUrl": "/static/assets/menuImg/pic1.jpg",
+      "title": "油条",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "imgUrl": "/static/assets/menuImg/pic2.jpg",
+      "title": "煎饼",
+      "url": ""
+    },
+    {
+      "id": 3,
+      "imgUrl": "/static/assets/menuImg/pic3.jpg",
+      "title": "肉包",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "imgUrl": "/static/assets/menuImg/pic4.jpg",
+      "title": "菜包",
+      "url": ""
+    },
+    {
+      "id": 5,
+      "imgUrl": "/static/assets/menuImg/pic1.jpg",
+      "title": "油条",
+      "url": ""
+    },
+    {
+      "id": 6,
+      "imgUrl": "/static/assets/menuImg/pic2.jpg",
+      "title": "煎饼",
+      "url": ""
+    },
+    {
+      "id": 7,
+      "imgUrl": "/static/assets/menuImg/pic3.jpg",
+      "title": "肉包",
+      "url": ""
+    },
+    {
+      "id": 8,
+      "imgUrl": "/static/assets/menuImg/pic4.jpg",
+      "title": "菜包",
+      "url": ""
+    }
+  ],
+  "getSelectedList": [
+    [
+      {
+        "id": 1,
+        "number": 2,
+        "title": "油条",
+        "imgUrl": "/static/assets/menuImg/pic1.jpg"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "number": 2,
+        "title": "油条",
+        "imgUrl": "/static/assets/menuImg/pic1.jpg"
+      },
+      {
+        "id": 2,
+        "number": 2,
+        "title": "煎饼",
+        "imgUrl": "/static/assets/menuImg/pic2.jpg"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "number": 4,
+        "title": "油条",
+        "imgUrl": "/static/assets/menuImg/pic1.jpg"
+      },
+      {
+        "id": 2,
+        "number": 2,
+        "title": "煎饼",
+        "imgUrl": "/static/assets/menuImg/pic2.jpg"
+      },
+      {
+        "id": 3,
+        "number": 2,
+        "title": "肉包",
+        "imgUrl": "/static/assets/menuImg/pic3.jpg"
+      },
+      {
+        "id": 5,
+        "number": 3,
+        "title": "油条",
+        "imgUrl": "/static/assets/menuImg/pic1.jpg"
+      }
+    ],
+    [
+      {
+        "id": 3,
+        "number": 3,
+        "title": "肉包",
+        "imgUrl": "/static/assets/menuImg/pic3.jpg"
+      },
+      {
+        "id": 4,
+        "number": 2,
+        "title": "菜包",
+        "imgUrl": "/static/assets/menuImg/pic4.jpg"
+      }
+    ]
+  ]
+}
